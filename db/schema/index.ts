@@ -1,4 +1,4 @@
-import { userTable } from "./user/schema";
+import { userTable } from "./user/user.schema";
 
 export const schema = {
 	...userTable

@@ -4,24 +4,27 @@
     "drizzle-kit": "^0.28.1",
     "drizzle-orm": "^0.36.4",
     "fastify": "^5.1.0",
-    "nodemon": "^3.1.7",
     "pg": "^8.13.1",
     "postgres": "^3.4.5",
+    "typescript": "^5.7.2",
     "zod": "^3.23.8"
   },
   "name": "cyberpets",
   "version": "1.0.0",
-  "main": "index.js",
   "scripts": {
+    "build": "tsc",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "nodemon --watch src --exec ts-node /index.ts",
+    "dev": "nodemon --watch server --exec npx ts-node server/index.ts",
     "db:push": "drizzle-kit push"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "description": "",
   "devDependencies": {
-    "@types/node": "^22.9.3"
-  }
+    "@types/node": "^22.9.3",
+    "nodemon": "^3.1.7",
+    "ts-node": "^10.9.2",
+    "tsx": "^4.19.2"
+  },
+  "description": ""
 }

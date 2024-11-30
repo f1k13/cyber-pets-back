@@ -1,12 +1,11 @@
 import { defineConfig } from "drizzle-kit";
-import { env } from "./env";
 
 
 export default defineConfig({
 	dialect: "postgresql",
-	schema: "./src/db/schema/**/*.schema.ts",
-	out: "./src/db/migrations",
+	schema: "./db/schema/**/*.ts",
+	out: "./db/migrations",
 	dbCredentials: {
-		url: env.DATABASE_URL,
+		url: 'postgres://postgres:1234@localhost:5432/cyberPets',
 	},
 });

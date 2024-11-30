@@ -1,0 +1,32 @@
+{
+  "compilerOptions": {
+    "target": "ES2020",
+    "module": "CommonJS",
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "lib": ["ES2020"],
+    "strict": true,
+    "baseUrl": "./",
+    "paths": {
+      "@server/*": ["server/*"],
+      "@services/*": ["services/*"],
+      "@repositories/*": ["repositories/*"],
+      "@entities/*": ["entities/*"],
+      "@utils/*": ["utils/*"],
+      "@types/*": ["types/*"],
+      "@db/*": ["db/*"]
+    },
+    "outDir": "dist",
+    "rootDir": "."
+  },
+  "include": [
+    "server/**/*",
+    "services/**/*",
+    "repositories/**/*",
+    "entities/**/*",
+    "utils/**/*",
+    "types/**/*",
+    "db**/*"
+  ],
+  "exclude": ["node_modules"]
+}

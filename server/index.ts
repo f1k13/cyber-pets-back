@@ -1,6 +1,6 @@
 import fastify from "fastify";
-import { userTable } from "../db/schema/user/schema";
-import { db } from "../db";
+import { db } from "../db/index";
+import { userTable } from "../db/schema/user/user.schema";
 import { env } from "../env";
 
 const server = fastify();
