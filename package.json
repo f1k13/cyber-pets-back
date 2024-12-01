@@ -14,7 +14,7 @@
   "scripts": {
     "build": "tsc",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "nodemon --watch server --exec npx ts-node server/index.ts",
+    "dev": "nodemon --watch server --watch services --watch repositories --watch handlers --watch utils --watch types --watch db --exec npx ts-node server/index.ts",
     "db:push": "drizzle-kit push"
   },
   "keywords": [],

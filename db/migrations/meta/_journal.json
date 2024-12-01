@@ -8,6 +8,13 @@
       "when": 1733000417349,
       "tag": "0000_optimal_the_liberteens",
       "breakpoints": true
+    },
+    {
+      "idx": 1,
+      "version": "7",
+      "when": 1733057865707,
+      "tag": "0001_regular_smasher",
+      "breakpoints": true
     }
   ]
 }

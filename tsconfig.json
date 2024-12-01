@@ -11,10 +11,11 @@
       "@server/*": ["server/*"],
       "@services/*": ["services/*"],
       "@repositories/*": ["repositories/*"],
-      "@entities/*": ["entities/*"],
+      "@handlers/*": ["handlers/*"],
       "@utils/*": ["utils/*"],
       "@types/*": ["types/*"],
-      "@db/*": ["db/*"]
+      "@db/*": ["db/*"],
+      "@routes/*": ["routes/*"]
     },
     "outDir": "dist",
     "rootDir": "."
